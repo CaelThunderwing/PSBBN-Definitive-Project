@@ -1210,8 +1210,13 @@ if [[ ${#UPDATE_SET[@]} -gt 0 ]]; then
         echo "${UI_TEXT[POL_DOING_UPDATE]} $k"
         upd="${WORK_DIR}/update-$k"
         rm -f "${upd}.txt"
+        # POL_UPDATE_SERVER (and POL_UPDATE_PORT) name a patch server other than
+        # the built-in one, e.g. a community server serving an older build.
+        srv_args=()
+        [[ -n "${POL_UPDATE_SERVER}" ]] && srv_args+=(--server "${POL_UPDATE_SERVER}")
+        [[ -n "${POL_UPDATE_PORT}" ]] && srv_args+=(--port "${POL_UPDATE_PORT}")
         polsudo update "$DEVICE" --title "$k" --work "$upd" --out "${upd}.txt" \
-            "${key_args[@]}" 2>&1 \
+            "${key_args[@]}" "${srv_args[@]}" 2>&1 \
             | tee -a "${LOG_FILE}"
         rc=${PIPESTATUS[0]}
         if [[ $rc -eq 3 ]]; then
