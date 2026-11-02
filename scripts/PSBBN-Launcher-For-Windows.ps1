@@ -29,7 +29,7 @@ $defaultFolders = @('DVD', 'CD', 'POPS', 'APPS', 'music', 'movie', 'photo', 'POL
 # GitHub repository and put its address here. Pointing this back at
 # https://github.com/CosmicScale/PSBBN-Definitive-Project.git with branch
 # "main" gives the stock project, without PlayOnline.
-$gitRepo = "https://github.com/YOUR-USERNAME/PSBBN-Definitive-Project.git"
+$gitRepo = "https://github.com/CaelThunderwing/PSBBN-Definitive-Project.git"
 $gitBranch = "playonline"
 
 # the console size that is set at the start of the script
