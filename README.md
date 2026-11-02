@@ -1,3 +1,22 @@
+AI Disclosure:
+I'm an impatient Git. I'm a Moron. and i wanted to get things done... so i used Claude to make the few changes to update it. 
+I found PSChuze's Patch to PSBBN Definitive Project but it was behind and the only changes were to update that for November 1st's update and Patch it to update from Project Crystal, Not OpenLobby and to Keep the updater script from deleting FFXI, POL & TetraMaster's Partitions. (which normally the partitions are Wiped and resync'd when you tell the GameInstaller to  add (Sync) games)
+
+To make things safe Please use atleast a 128GB HDD/SSD and tell the Setup portion of the installer to reserve atleast 45GB for APA Partitions (you'll want MORE as Project Crystal restores more things like More expacs Other PlayOnline Compatible titles etc.) (CosmicScale recommends atleast a SSD and even then a 200GB+ Drive anyway for PSBBN).
+
+To install PlayOnline, TetraMaster, and Final Fantasy XI, Make Sure to use a legally sourced copy of Vana'diel Collection 2008 (PS2.) and dump your Disc to an ISO. place it into your Game folder/POL. The entire process will take roughly an hour to build a PSBBN Drive with Just POL/FFXI+ Update the game. 
+
+Updating the game:
+i half-assed this myself i ran teh installer and mounted the drive (in my case that was Disk 6.) Opened in a Command Prompt window, this to tell it to update everything against Project Crystal
+
+wsl -d PSBBN -u root -- bash -c "cd /root/PSBBN-Definitive-Project && LAUNCHED_BY_MAIN=1 POL_ACTION=update POL_TITLES=viewer-us,tetramaster-us,ffxi-us POL_UPDATE_SERVER=PROJECT_CRYSTAL_DNS_HERE ./scripts/PlayOnline-Installer.sh eng /mnt/e/Games"      
+
+replace POL_UPDATE_SERVER with the DNS for your own locally hosted copy oif the server if thats what you wish. to Update this against Project Crystal, Join thier server and search for DNS. (i do not want to expose the IP w/o thier Permission.) and Replace /mnt/e/Games with Where you told the installer Script where your Games Folder is (so if yours is D:\PSBBNGames change that then to /mnt/d/PSBBNGames )
+
+CosmicScale's orginal ReadMe.md for PSBBN as-follows Below
+
+
+
 # PSBBN Definitive Project
 
 | **English** | [Português (Brasil)](https://github.com/CosmicScale/PSBBN-Definitive-Project/blob/main/README-PT-BR.md) | [Español](https://github.com/CosmicScale/PSBBN-Definitive-Project/blob/main/README-SPA.md) |
