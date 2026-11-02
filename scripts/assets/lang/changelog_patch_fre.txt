@@ -1,0 +1,1 @@
+• PSBBN prend désormais en charge le téléchargement des mises à jour système directement sur la console PS2 via un serveur de mise à jour personnalisé.

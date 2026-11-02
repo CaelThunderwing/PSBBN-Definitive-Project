@@ -1,0 +1,15 @@
+• Új lehetőség került hozzáadásra a PS2 ISO fájlok tömörítésére játékok telepítésekor. Engedélyezze ezt a lehetőséget a tárhely megtakarításához és ahhoz, hogy több játék férjen el a meghajtón.
+
+• Új lehetőség került hozzáadásra a PS2-játékok szélesvásznú javításainak telepítésére, amely a kompatibilis játékokban valódi 16:9-es szélesvásznú támogatást és nagyobb látómezőt biztosít.
+
+• Javult a homebrew alkalmazások telepítője. Az alkalmazásadatbázis kibővült, és már több mint 500 alkalmazás adatait tartalmazza, beleértve a nevüket, fejlesztőjüket, azonosítójukat és kategóriájukat.
+
+• A Játékválasztó mostantól a következő kategóriákba sorolja a homebrew alkalmazásokat: Emulátorok, Játékok, Demoscene, Alkalmazások, PS1 Alkalmazások, Rendszeralkalmazások, Diagnosztikai Eszközök, Hibakereső Alkalmazások és Futtatókörnyezetek. A kategóriák szabadon átrendezhetők az igényeinek megfelelően.
+
+• Több mint 500 alkalmazásikon került hozzáadásra a HDD-OSD Ikonadatbázishoz. A telepítő mostantól letölti ezeket az ikonokat, hogy megjelenjenek a HOSDMenu Böngészőjében.
+
+• A Böngészőben található alkalmazások mostantól megjelenítik a kategóriájukat.
+
+• A R3CONFIGURATOR mostantól egy indítógombhoz van hozzárendelve, és a SELECT gomb nyomva tartásával indítható rendszerindításkor.
+
+• A kizárólag HOSDMenu-t használó felhasználók mostantól használhatják a „Kereszt és Kör gombok felcserélése” opciót az Opcionális Extrák menüben.

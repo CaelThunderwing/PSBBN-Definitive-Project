@@ -1,0 +1,1 @@
+• PSBBN now supports downloading system updates directly to the PS2 console via a custom update server.

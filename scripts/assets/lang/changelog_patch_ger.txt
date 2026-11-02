@@ -1,0 +1,1 @@
+• PSBBN unterstützt jetzt das Herunterladen von Systemupdates direkt auf die PS2-Konsole über einen benutzerdefinierten Update-Server.
